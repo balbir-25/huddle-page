@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    min-width: 1340px;
+  }
+
+/* ==================================START MAIN AREA================================ */
+/* =================================START HEADER AREA=============================== */
+#head{
+    padding: 2rem;
+    background-image: url(./images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+}
+
+.bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bar-btn{
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 20px;
+    font-family: "Open Sans";
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: hsl(192, 100%, 9%);
+    background-color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.head-div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    padding: 2rem;
+    justify-content: space-evenly;
+}
+
+.head-img{
+    width: 40%;
+}
+
+.head-div2{
+    margin-top: 3rem;
+}
+
+.head-h1{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 3rem;
+    color: hsl(192, 100%, 9%);
+    padding: 0rem 1rem;
+    line-height: 3rem;
+}
+
+.head-para{
+    font-family: "Open Sans";
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color:hsl(192, 100%, 9%);
+    padding: 0rem 1rem;
+    line-height: 2rem;
+}
+
+.head-btn{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 20px;
+    font-family: "Open Sans";
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(322, 100%, 66%);
+    cursor: pointer;
+}
+/* =================================END HEADER AREA=============================== */
+/* ================================START FIRST SECTION AREA============================== */
+#first{
+    margin: 1rem 3rem;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row-reverse;
+  justify-content: space-evenly; 
+  border: 1px solid hsl(193, 100%, 96%); 
+  padding: 2rem;
+  box-shadow: 1px 1px 1px 1px hsl(208, 11%, 55%);
+  border-radius: 10px;
+}
+
+.first-img{
+    width: 40%;
+}
+
+.first-div{
+    margin-top: 8rem;
+}
+
+.first-h2{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "Poppins";
+    color: hsl(192, 100%, 9%);
+}
+
+.first-para{
+    font-family: "Open Sans";
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color:hsl(208, 11%, 55%);
+    width: 90%;
+    line-height: 2rem;
+}
+/* ================================END FIRST SECTION AREA============================== */
+/* ================================START SECOND SECTION AREA============================== */
+#second{
+    margin: 1rem 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    border: 1px solid hsl(193, 100%, 96%); 
+    padding: 2rem;
+    box-shadow: 1px 1px 1px 1px hsl(208, 11%, 55%);
+    border-radius: 10px;
+}
+
+.second-img{
+    width: 40%;
+}
+
+.second-div{
+    margin-top: 8rem;
+    margin-left: 5rem;
+}
+
+.second-h2{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "Poppins";
+    color: hsl(192, 100%, 9%);
+}
+
+.second-para{
+    font-family: "Open Sans";
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color:hsl(208, 11%, 55%);
+    width: 90%;
+    line-height: 2rem;
+}
+/* ================================END SECOND SECTION AREA============================== */
+/* ================================START THIRD SECTION AREA============================== */
+#third{
+    margin: 1rem 3rem;
+    display: flex;
+    flex-direction: row-reverse;
+  justify-content: space-evenly; 
+  border: 1px solid hsl(193, 100%, 96%); 
+  padding: 2rem;
+  box-shadow: 1px 1px 1px 1px hsl(208, 11%, 55%);
+  border-radius: 10px;
+}
+
+.third-img{
+    width: 40%;
+}
+
+.third-div{
+    margin-top: 8rem;
+}
+
+.third-h2{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "Poppins";
+    color: hsl(192, 100%, 9%);
+}
+
+.third-para{
+    font-family: "Open Sans";
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color:hsl(208, 11%, 55%);
+    width: 90%;
+    line-height: 2rem;
+}
+/* ================================END THIRD SECTION AREA============================== */
+/* ================================START FOURTH SECTION AREA============================== */
+#fourth{
+    margin-top: 3rem;
+    width: 700px;
+    border: 1px solid hsl(193, 100%, 96%); 
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px hsl(208, 11%, 55%);
+    justify-content: center;
+    margin-left: 20rem;
+    position: absolute;
+    padding: 3rem;
+    z-index: 1;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+
+.fourth-h2{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "Poppins";
+}
+
+.fourth-btn{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 20px;
+    font-family: "Open Sans";
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(322, 100%, 66%);
+    cursor: pointer;
+}
+
+/* ================================END FOURTH SECTION AREA============================== */
+/* ================================START FOOTER SECTION AREA============================== */
+#footer{
+    background-color: hsl(192, 100%, 9%);
+    padding:  8rem 3rem;
+    margin-top: 12rem;
+}
+
+.footer-logo{
+      filter: invert(100%) saturate(0%) brightness(200%) contrast(200%);
+      width: 12%;
+}
+
+.footer-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact-div{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.icon{
+    color: white;
+}
+
+.contact-span{
+    font-family: "Open Sans";
+    font-size: 1.2rem;
+    font-weight: 400;
+    color:white;
+    width: 350px;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1rem;
+}
+
+.about-span{
+    font-family: "Open Sans";
+    font-size: 1.2rem;
+    font-weight: 400;
+    color:white;
+    width: 350px;
+    cursor: pointer;
+}
+
+.about-span:hover{
+    text-decoration: underline;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.social .icon{
+    cursor: pointer;
+}
+
+.social .icon:hover{
+    color: hsl(322, 100%, 66%);
+}
+
+small{
+    float: right;
+    margin-top: 2rem;
+    font-family: "Open Sans";
+    font-size: 0.7rem;
+    font-weight: 400;
+    color:white;
+}
+/* ================================END FOOTER SECTION AREA============================== */
+/* ==================================END MAIN AREA================================ */
+/* =============================START FOOTER  AREA=========================== */
+.foot {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 20px;
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(240, 10%, 16%);
+  }
+  
+  .foot a {
+    text-decoration: none;
+    color: hsl(39, 100%, 56%);
+  }
+  
+  .foot a:hover {
+    color: hsl(300, 69%, 71%);
+  }
+  /* =============================END FOOTER  AREA=========================== */
+  /* =============================START MEDIA QUERY=========================== */
+  @media screen and (max-width:375px) {
+    body{
+        min-width: 375px;
+    }
+
+    #head{
+        background-image: url(./images/bg-hero-mobile.svg);
+    }
+
+    .logo{
+        width: 40%;
+    }
+
+    .bar-btn{
+        padding: 1rem;
+    }
+
+    .head-div{
+        flex-direction: column;
+        padding: 0rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .head-div2{
+        margin-top: 0rem;
+    }
+
+    .head-h1{
+        font-size: 1.7rem;
+        padding: 0rem;
+        line-height: 2rem;
+    }
+
+    .head-para{
+        font-size: 0.9rem;
+    }
+
+    .head-img, .first-img, .second-img, .third-img{
+        margin-top: 3rem;
+        width: 100%;
+    }
+
+    #first, #second, #third{
+        flex-direction: column;
+        padding: 1rem;
+        align-items: center;
+        width: 90%;
+        margin: 1rem ;
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+
+    .first-div, .second-div, .third-div{
+        margin-top: 4rem;
+    }
+
+    .second-h2, .first-h2, .third-h2{
+        font-size: 1.5rem;
+    }
+
+    .second-div{
+        margin-left: 0rem;
+    }
+
+    .footer-div{
+        flex-direction: column;
+    }
+
+    .about{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    #fourth{
+        margin-left: 1rem;
+        width: 350px;
+        padding: 3rem 1rem;
+    }
+
+    .fourth-h2{
+        font-size: 1.1rem;
+    }
+
+    .first-para, .second-para, .third-para{
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    #footer{
+        padding: 8rem 1rem;
+    }
+
+    small{
+        float: none;
+        display: inline-block;
+        justify-content: center;
+        margin-left: 4rem;
+    }
+
+    .social{
+       justify-content: center;
+    }
+
+    .footer-logo{
+        width: 60%;
+        margin-top: 2rem;
+    }
+  }
+  /* =============================END MEDIA QUERY=========================== */
